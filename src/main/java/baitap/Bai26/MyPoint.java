@@ -21,5 +21,26 @@ public class MyPoint {
     public void setY(int y) {
         this.y = y;
     }
+    public void setXY(int x, int y){
+        this.x=x;
+        this.y=y;
+    }
+    public int[] getXY(){
+        return  new int[]{x,y};
+    }
 
+    @Override
+    public String toString() {
+        return String.format("(%d,%d)", x, y);
+    }
+    public double distance(int x, int y) {
+        return Math.sqrt((this.x - x) * (this.x - x) + (this.y - y) * (this.y - y));
+    }
+    public double distance(MyPoint another){
+        return distance(another.x, another.y);
+    }
+
+    public double distance(){
+        return distance(0, 0);
+    }
 }
