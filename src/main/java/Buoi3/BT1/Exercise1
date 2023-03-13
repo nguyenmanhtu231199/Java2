@@ -1,0 +1,9 @@
+Tạo 1 map lưu trữ thông tin, danh bạn người dùng theo định dạng Họ Tên -SĐT
+trong đó sđt là duy nhất
+Viết chương trình có chức năng như sau
+---- Quản lý danh bạ----
+1. Thêm danh bạ
+2. Cập nhật tên danh bạ
+3. xóa danh bạ theo số điện thọai
+4. xem toàn bộ danh bạ
+5. thoát
